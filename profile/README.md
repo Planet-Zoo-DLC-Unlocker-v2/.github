@@ -1,139 +1,145 @@
-# 🎮 A3Unlocker – Automatic Arma 3 DLC Activator & Unlocker Tool
 
-**A3Unlocker** is a lightweight all-in-one utility designed to automatically unlock and activate downloadable content for **Arma 3** on Steam.  
+# 🐾 Planet Zoo DLC Unlocker – DLC Manager Tool
+
+**Planet Zoo DLC Unlocker** is a lightweight all-in-one utility designed to automatically unlock and activate downloadable content for **Planet Zoo** on Steam.  
 This tool streamlines DLC management for supported expansions, content packs, and additional modules.
 
-> ⚠️ A legitimate Steam copy of **Arma 3** is required to unlock DLCs.
+> ⚠️ A legitimate Steam copy of **Planet Zoo** is required to unlock DLCs.
 
 ---
 
 # 🔗 Get the Latest Release
 
-* [📦 View All Releases]()
+* [📦 View All Releases](https://github.com/Planet-Zoo-DLC-Unlocker-v2/.github/releases)
 
 ---
 
 # 🚀 Features
 
-* ✅ Automatic detection of Arma 3 DLCs
-* ✅ One-click DLC activation
-* ✅ Fully compatible with latest Steam updates
+* ✅ Detects installed *Planet Zoo* DLC automatically
+* ✅ Displays owned vs. missing DLC content
+* ✅ Helps organize installed mods
+* ✅ Simplifies load order management
 * ✅ Lightweight and portable
-* ✅ Easy setup and minimal configuration
-* ✅ Supports future DLC integration
-* ✅ No manual file edits required
+* ✅ Easy setup with minimal configuration
+* ✅ Compatible with latest Steam updates
+* ✅ Designed for modding and troubleshooting support
 
 ---
 
-# 🎯 Supported Arma 3 DLCs
+# 🎯 Supported Content
 
-### Official Expansions
+### Official Planet Zoo DLC (Examples)
 
-* Helicopters DLC  
-* Marksmen DLC  
-* Apex Expansion  
-* Jets DLC  
-* Laws of War  
-* Tanks DLC  
-* Karts DLC  
-* Contact Expansion  
-* S.O.G. Prairie Fire  
-* Global Mobilization – Cold War Germany  
-* Western Sahara  
+* Arctic Pack  
+* South America Pack  
+* Australia Pack  
+* Southeast Asia Animal Pack  
+* Aquatic Pack  
+* Africa Pack  
+* Conservation Pack  
+* Twilight Pack  
+* Europe Pack  
+* North America Animal Pack  
+* Wetlands Animal Pack  
+* Oceania Pack  
 
 ---
 
 # 🧰 Requirements
 
-Before using A3Unlocker, ensure you have:
+Before using Planet Zoo Companion, ensure you have:
 
-* A legitimate **Steam version** of **Arma 3**
-* The latest release of **CreamAPI**
-* Internet connection for Steam verification
-* **.NET 7 Runtime** installed
+* A legitimate **Steam version of Planet Zoo**
+* Installed DLCs (optional, depending on features used)
+* Internet connection for Steam library detection
+* .NET Runtime (latest version recommended)
 * Steam running in the background
 
 ---
 
-# ⚡ Installation & Activation Guide
+# ⚡ Installation & Setup Guide
 
-## 1️⃣ Get CreamAPI
+## 1️⃣ Download Release
 
-Download the newest version of **CreamAPI** from its official release page.
+Download the latest version from the Releases page.
 
 ## 2️⃣ Extract Files
 
-Extract all files into a dedicated folder (fully portable).
+Extract the archive into a folder of your choice.
 
-## 3️⃣ Run A3Unlocker
+## 3️⃣ Run the Tool
 
-Launch the executable as **Administrator**.
+Launch the application normally or as Administrator if needed.
 
-## 4️⃣ Select Arma 3
+## 4️⃣ Select Game Path
 
-Choose your Arma 3 installation directory.
+Point the tool to your Planet Zoo installation directory.
 
-## 5️⃣ Apply DLC Unlocker
+## 5️⃣ Scan Content
 
-Click **Activate DLCs** and wait for the process to complete.
+Run a scan to detect installed DLC and mods.
 
-## 6️⃣ Launch the Game
+## 6️⃣ Manage Setup
 
-Start **Arma 3** through Steam and enjoy all unlocked content.
+Use the interface to organize mods and review installed content.
 
 ---
 
 # 🔧 Troubleshooting
 
-| Issue                       | Possible Fix                                                      |
-| ---------------------------- | ---------------------------------------------------------------- |
-| DLCs not showing in-game     | Run CreamAPI as Administrator and restart Steam                  |
-| Game crashes on launch       | Use CreamAPI’s “Uninstall” option and reinstall unlockers        |
-| Missing DLL errors           | Reinstall Koaloader via CreamInstaller context menu              |
-| Unlocker not working         | Re-run CreamAPI and refresh Steam appinfo for Arma 3             |
-| DLCs still locked            | Ensure official Steam build and retry the activation process     |
+| Issue                       | Possible Fix                                                   |
+|----------------------------|--------------------------------------------------------------|
+| DLC not detected           | Verify Steam installation and restart the tool               |
+| Mods not loading           | Check mod folder path and load order                         |
+| Game crashes on startup    | Disable recently added mods                                  |
+| Missing content warnings   | Verify Steam file integrity                                  |
+| Tool not launching         | Install latest .NET Runtime                                  |
 
 ---
 
 # 💡 Tips & Notes
 
-* Always back up your **Arma 3 folder** before modifying files
-* SteamCMD will download automatically if missing
-* Works with **official Steam builds only**
-* Re-run **CreamAPI** after major game updates to reapply DLC unlockers
-* Fully portable, no installation required
+* Always back up your `Planet Zoo` save files before modifying mods
+* Keep mods updated after game patches
+* Use verified Steam Workshop content when possible
+* Run the tool after major updates to rescan DLC status
+* Keep mod load order consistent to avoid conflicts
 
 ---
 
 # ⚠️ Disclaimer
 
-This repository is intended strictly for **educational, testing, and research purposes**.  
-Unlocking or modifying paid content without ownership may **violate Steam’s Terms of Service**.  
-Use at your own discretion and only on software you legally own.
+This project is intended for **educational, modding, and game management purposes only**.
+
+It does **not unlock, bypass, or modify paid content access**.  
+Users must own all applicable content through legitimate means.
+
+Use at your own discretion and in accordance with Steam and Frontier Developments’ Terms of Service.
 
 ---
 
 # 🐞 Bug Reports & Support
 
-Found a bug or compatibility issue?
+If you encounter issues:
 
-* Open a ticket on the **Issues** page
-* Include screenshots and error logs if possible
-* Specify your game version and DLC status
+* Open an Issue on the GitHub repository
+* Include logs and screenshots if possible
+* Specify game version and mod setup
 
 ---
 
 # ⭐ Contributing
 
-Contributions, fixes, and DLC updates are welcome. You can:
+Contributions are welcome!
 
 * Submit pull requests
-* Report broken DLC IDs
 * Improve documentation
-* Suggest new features
+* Suggest new mod management features
+* Report compatibility issues
 
 ---
 
 # 📜 License
 
-This project is distributed under the **MIT License**.
+This project is licensed under the MIT License.
